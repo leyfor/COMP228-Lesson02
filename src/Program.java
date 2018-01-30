@@ -1,12 +1,20 @@
 
 public class Program {
 	
-	private static String _name = "";
+   public static Person person; // reference to the Person class
   
 	public static void main(String[] args) {
-		_name = "Tom";
-		System.out.println("Program started...");
-		System.out.println(_name);
+		System.out.println("Program Started...");
+		person =  new Person(35);	
+		person.setName("Tom");
+		person.setGender("Male");
+		
+		System.out.println(person.getName());
+		System.out.println(person.getGender());
+		
+		person.runs();
+	
 	}
+	
 
 }
