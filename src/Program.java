@@ -13,6 +13,8 @@ public class Program {
 		System.out.println(person.getGender());
 		
 		person.runs();
+		
+		System.out.println(person.getAge());
 	
 	}
 	

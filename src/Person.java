@@ -34,9 +34,18 @@ public class Person {
 		this._name = name;
 	}
 	
+	
+	public int getAge() {
+		return _age;
+	}
+
+ //	public void set_age(int _age) {
+	//	this._age = _age;
+//	}
+
 	//  PUBLIC METHODS --- EVENTS...	
 	public void runs() {
-		System.out.printf("%s Runs.", this._name);
+		System.out.printf("%s Runs and is %d years old.", this.getName(), this.getAge());
 	}
 
 }
