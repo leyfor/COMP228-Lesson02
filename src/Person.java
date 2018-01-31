@@ -26,14 +26,14 @@ public class Person {
 		this._gender = gender;
 	}
 
-	public String getName() {
-		return _name;
-	}
 
 	public void setName(String name) {
 		this._name = name;
 	}
 	
+	public String getName() {
+		return _name;
+	}
 	
 	public int getAge() {
 		return _age;
