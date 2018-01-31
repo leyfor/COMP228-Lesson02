@@ -14,8 +14,16 @@ public class Person {
 	} */ 
 	
 	public Person(int age) {
-		this._age = age;
+		this._initialize(age, "Unknown", "Unknown");
 		
+	}
+	
+	// PRIVATE METHODS.....
+	
+	private void _initialize(int age, String name, String gender) {
+			this.setName(name);
+			this.setGender(gender);
+			this._age = age;
 	}
 
 	public String getGender() {
